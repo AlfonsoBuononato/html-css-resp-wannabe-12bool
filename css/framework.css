@@ -5,7 +5,7 @@
 /* GENERAL */
 
 *{
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
 }
@@ -14,7 +14,8 @@
 
 .container{
     max-width: 1170px;
-    margin: 0 auto;
+    margin: auto;
+    margin-top: 100px;
 }
 
 .container::after{
@@ -29,6 +30,7 @@
     float: left;
     padding-right: 15px;
     padding-left: 15px;
+    padding-top: 70px;
 }
 
 [class*="col-"].padding-0{
